@@ -7,7 +7,7 @@ class Counter extends Component {
   };
 
   renderTags() {
-    if (this.state.tags.length === 0) return <p>There are no tags!</p>;
+    if (this.state.tags.length === 0) return <p>There are no tags.</p>;
 
     return (
       <ul>
